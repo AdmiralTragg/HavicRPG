@@ -1,4 +1,4 @@
-package com.gryphonmodding.havicrpg.entity.mob;
+package com.gryphonmodding.havicrpg.common.entity.mob;
 
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.SharedMonsterAttributes;

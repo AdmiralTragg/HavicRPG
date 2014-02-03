@@ -1,4 +1,4 @@
-package com.gryphonmodding.havicrpg.blocks; 
+package com.gryphonmodding.havicrpg.common.block; 
 import java.util.List; 
 import java.util.Random; 
 

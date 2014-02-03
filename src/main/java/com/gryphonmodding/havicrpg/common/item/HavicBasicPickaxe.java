@@ -1,4 +1,4 @@
-package com.gryphonmodding.havicrpg.item;
+package com.gryphonmodding.havicrpg.common.item;
 
 import com.gryphonmodding.havicrpg.HavicRPG;
 

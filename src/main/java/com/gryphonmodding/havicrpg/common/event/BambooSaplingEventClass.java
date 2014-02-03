@@ -1,10 +1,10 @@
-package com.gryphonmodding.havicrpg.event;
-
-import com.gryphonmodding.havicrpg.*;
-import com.gryphonmodding.havicrpg.blocks.*;
+package com.gryphonmodding.havicrpg.common.event;
 
 import net.minecraftforge.event.ForgeSubscribe;
 import net.minecraftforge.event.entity.player.BonemealEvent;
+
+import com.gryphonmodding.havicrpg.HavicRPG;
+import com.gryphonmodding.havicrpg.common.block.BambooSapling;
 
 public class BambooSaplingEventClass {
 	private int BlockID;

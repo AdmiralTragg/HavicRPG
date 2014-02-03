@@ -1,13 +1,13 @@
-package com.gryphonmodding.havicrpg.item;
+package com.gryphonmodding.havicrpg.common.item;
 
 import com.gryphonmodding.havicrpg.HavicRPG;
 
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.*;
 
-public class HavicBasicSword extends ItemSword{
+public class HavicBasicAxe extends ItemAxe{
 
-        public HavicBasicSword(int id, EnumToolMaterial material) {
+        public HavicBasicAxe(int id, EnumToolMaterial material) {
                 super(id, material);
                 setCreativeTab(HavicRPG.YargModToolsTab);
         }
