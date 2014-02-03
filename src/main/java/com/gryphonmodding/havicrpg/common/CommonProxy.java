@@ -1,4 +1,4 @@
-package com.gryphonmodding.havicrpg;
+package com.gryphonmodding.havicrpg.common;
 
 public class CommonProxy {
 

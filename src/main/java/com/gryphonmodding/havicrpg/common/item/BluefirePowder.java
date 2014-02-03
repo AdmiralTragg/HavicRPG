@@ -1,4 +1,4 @@
-package com.gryphonmodding.havicrpg;
+package com.gryphonmodding.havicrpg.common.item;
 
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.Item;

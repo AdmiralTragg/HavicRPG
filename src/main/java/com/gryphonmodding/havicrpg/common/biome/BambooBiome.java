@@ -1,4 +1,4 @@
-package com.gryphonmodding.havicrpg;
+package com.gryphonmodding.havicrpg.common.biome;
 
 import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraft.block.*;

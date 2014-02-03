@@ -1,4 +1,6 @@
-package com.gryphonmodding.havicrpg;
+package com.gryphonmodding.havicrpg.common.world;
+
+import com.gryphonmodding.havicrpg.HavicRPG;
 
 import net.minecraft.world.WorldProvider;
 import net.minecraft.world.biome.WorldChunkManager;

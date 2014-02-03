@@ -1,4 +1,7 @@
-package com.gryphonmodding.havicrpg;
+package com.gryphonmodding.havicrpg.common.block;
+
+import com.gryphonmodding.havicrpg.HavicRPG;
+import com.gryphonmodding.havicrpg.common.world.TeleporterEmosion;
 
 import net.minecraft.block.BlockPortal;
 import net.minecraft.entity.Entity;

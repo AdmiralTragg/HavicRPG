@@ -6,8 +6,9 @@ import java.util.Random;
 
 
 
+
 import com.gryphonmodding.havicrpg.*;
-import com.gryphonmodding.havicrpg.common.worldgen.BambooTreeWorldGeneration;
+import com.gryphonmodding.havicrpg.common.world.BambooTreeWorldGeneration;
 
 import net.minecraft.block.BlockFlower;
 import net.minecraft.client.renderer.texture.IconRegister;
