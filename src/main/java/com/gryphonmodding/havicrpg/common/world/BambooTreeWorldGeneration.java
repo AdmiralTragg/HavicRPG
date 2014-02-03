@@ -7,18 +7,19 @@ import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenerator;
 
-public class BambooTreeWorldGeneration extends WorldGenerator implements IWorldGenerator{
+public class BambooTreeWorldGeneration extends WorldGenerator implements IWorldGenerator {
 
-		public BambooTreeWorldGeneration(boolean par1){
-			this(par1, 8, 0, 0, false);
-		}
-	public BambooTreeWorldGeneration(boolean par1, int par2, int par3, int par4, boolean par5){
+	public BambooTreeWorldGeneration(boolean par1) {
+		this(par1, 8, 0, 0, false);
+	}
+
+	public BambooTreeWorldGeneration(boolean par1, int par2, int par3, int par4, boolean par5) {
 		super(par1);
 	}
+
 	@Override
-	public void generate(Random random, int chunkX, int chunkZ, World world,
-			IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
-		
+	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
+
 	}
 
 	@Override
