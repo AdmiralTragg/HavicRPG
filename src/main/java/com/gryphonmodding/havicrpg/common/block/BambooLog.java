@@ -20,7 +20,7 @@ public class BambooLog extends Block {
 
 	public BambooLog(int par1, Material par2Material) {
 		super(par1, par2Material);
-		setCreativeTab(HavicRPG.YargModBlocksTab);
+		setCreativeTab(HavicRPG.havicTabBlocks);
 		setHardness(5.0F);
 		setResistance(5);
 	}

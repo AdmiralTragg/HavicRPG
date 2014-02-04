@@ -5,11 +5,11 @@ import com.gryphonmodding.havicrpg.HavicRPG;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.*;
 
-public class HavicBasicHoe extends ItemHoe {
+public class ItemHavicShovel extends ItemSpade {
 
-	public HavicBasicHoe(int id, EnumToolMaterial material) {
+	public ItemHavicShovel(int id, EnumToolMaterial material) {
 		super(id, material);
-		setCreativeTab(HavicRPG.YargModToolsTab);
+		setCreativeTab(HavicRPG.havicTabTools);
 	}
 
 	@Override

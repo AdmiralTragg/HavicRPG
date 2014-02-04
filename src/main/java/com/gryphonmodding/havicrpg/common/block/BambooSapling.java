@@ -22,7 +22,7 @@ public class BambooSapling extends BlockFlower {
 		super(i);
 		float var3 = 0.4F;
 		this.setBlockBounds(0.5F - var3, 0.0F, 0.5F - var3, (float) (0.5 + var3), var3 * 2.0F, 0.5F + var3);
-		this.setCreativeTab(HavicRPG.YargModBlocksTab);
+		this.setCreativeTab(HavicRPG.havicTabBlocks);
 
 	}
 

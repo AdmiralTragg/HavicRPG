@@ -12,7 +12,7 @@ public class BambooLeaves extends Block {
 
 	public BambooLeaves(int par1, Material par2Material) {
 		super(par1, par2Material);
-		this.setCreativeTab(HavicRPG.YargModBlocksTab);
+		this.setCreativeTab(HavicRPG.havicTabBlocks);
 		this.setHardness(0.2F);
 		this.setResistance(1.0F);
 		this.setStepSound(soundGrassFootstep);

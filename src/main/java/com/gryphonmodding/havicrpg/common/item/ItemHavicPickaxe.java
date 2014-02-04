@@ -5,11 +5,11 @@ import com.gryphonmodding.havicrpg.HavicRPG;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.*;
 
-public class HavicBasicSword extends ItemSword {
+public class ItemHavicPickaxe extends ItemPickaxe {
 
-	public HavicBasicSword(int id, EnumToolMaterial material) {
+	public ItemHavicPickaxe(int id, EnumToolMaterial material) {
 		super(id, material);
-		setCreativeTab(HavicRPG.YargModToolsTab);
+		setCreativeTab(HavicRPG.havicTabTools);
 	}
 
 	@Override
