@@ -1,0 +1,30 @@
+//Creative Tabs
+itemGroup.tabMaterials=HavicRPG Materials
+itemGroup.tabBlocks=HavicRPG Blocks
+itemGroup.tabTools=HavicRPG Tools
+
+//Blocks
+block.oreMogite.name=Mogite Ore
+block.oreClearite.name=Clearite Ore
+block.oreEuno.name=Euno Ore
+block.blockMogite.name=Block of Mogite
+block.blockClearite.name=Block of Clearite
+block.blockEuno.name=Block of Euno
+
+//Items
+item.ingotMogite.name=Mogite Ingot
+item.ingotClearite.name=Clearite Ingot
+item.ingotEuno.name=Euno Ingot
+
+//Tools & Weapons
+item.swordMogite.name=Mogite Sword
+item.pickaxeMogite.name=Mogite Pickaxe
+item.shovelMogite.name=Mogite Shovel
+item.axeMogite.name=Mogite Axe
+item.hoeMogite.name=Mogite Hoe
+
+item.swordEuno.name=Euno Sword
+item.pickaxeEuno.name=Euno Pickaxe
+item.shovelEuno.name=Euno Shovel
+item.axeEuno.name=Euno Axe
+item.hoeEuno.name=Euno Hoe
