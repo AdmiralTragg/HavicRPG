@@ -16,6 +16,7 @@ public class BambooLeaves extends Block {
 		this.setHardness(0.2F);
 		this.setResistance(1.0F);
 		this.setStepSound(soundGrassFootstep);
+		this.setUnlocalizedName("leavesBamboo");
 	}
 
 	public boolean isOpaqueCube() {

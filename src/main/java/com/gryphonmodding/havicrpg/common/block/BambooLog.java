@@ -23,6 +23,7 @@ public class BambooLog extends Block {
 		setCreativeTab(HavicRPG.havicTabBlocks);
 		setHardness(5.0F);
 		setResistance(5);
+		this.setUnlocalizedName("logSilver");
 	}
 
 	public int onBlockPlaced(World par1world, int par2, int par3, int par4, int par5, float par6, float par7, int par9) {

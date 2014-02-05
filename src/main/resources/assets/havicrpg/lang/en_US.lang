@@ -17,3 +17,14 @@ item.ingotClearite.name=Clearite Ingot
 item.ingotEuno.name=Euno Ingot
 
 //Tools & Weapons
+item.swordMogite.name=Mogite Sword
+item.pickaxeMogite.name=Mogite Pickaxe
+item.shovelMogite.name=Mogite Shovel
+item.axeMogite.name=Mogite Axe
+item.hoeMogite.name=Mogite Hoe
+
+item.swordEuno.name=Euno Sword
+item.pickaxeEuno.name=Euno Pickaxe
+item.shovelEuno.name=Euno Shovel
+item.axeEuno.name=Euno Axe
+item.hoeEuno.name=Euno Hoe

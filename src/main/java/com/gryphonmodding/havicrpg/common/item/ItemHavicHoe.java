@@ -7,14 +7,15 @@ import net.minecraft.item.*;
 
 public class ItemHavicHoe extends ItemHoe {
 
-	public ItemHavicHoe(int id, EnumToolMaterial material) {
+	public ItemHavicHoe(int id, EnumToolMaterial material, String name) {
 		super(id, material);
-		setCreativeTab(HavicRPG.havicTabTools);
+		this.setCreativeTab(HavicRPG.havicTabTools);
+		this.setUnlocalizedName(name);
 	}
 
 	@Override
 	public void registerIcons(IconRegister iconRegister) {
-		itemIcon = iconRegister.registerIcon("yargmod:" + this.getUnlocalizedName().substring(5));
+		itemIcon = iconRegister.registerIcon("havicrpg:" + this.getUnlocalizedName().substring(5));
 	}
 
 }

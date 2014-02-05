@@ -18,6 +18,8 @@ public class BlockHavicStorage extends Block {
 	public BlockHavicStorage(int id) {
 		super(id, Material.iron);
 		this.setCreativeTab(HavicRPG.havicTabBlocks);
+		this.setUnlocalizedName("blockHavicStorage");
+		this.setHardness(5.0f);
 	}
 	
 	@Override

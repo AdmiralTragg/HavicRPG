@@ -7,14 +7,15 @@ import net.minecraft.item.*;
 
 public class ItemHavicPickaxe extends ItemPickaxe {
 
-	public ItemHavicPickaxe(int id, EnumToolMaterial material) {
+	public ItemHavicPickaxe(int id, EnumToolMaterial material, String name) {
 		super(id, material);
-		setCreativeTab(HavicRPG.havicTabTools);
+		this.setCreativeTab(HavicRPG.havicTabTools);
+		this.setUnlocalizedName(name);
 	}
 
 	@Override
 	public void registerIcons(IconRegister iconRegister) {
-		itemIcon = iconRegister.registerIcon("yargmod:" + this.getUnlocalizedName().substring(5));
+		itemIcon = iconRegister.registerIcon("havicrpg:" + this.getUnlocalizedName().substring(5));
 	}
 
 }

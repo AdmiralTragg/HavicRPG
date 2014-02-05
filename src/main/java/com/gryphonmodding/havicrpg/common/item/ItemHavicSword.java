@@ -6,9 +6,10 @@ import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.*;
 
 public class ItemHavicSword extends ItemSword {
-	public ItemHavicSword(int id, EnumToolMaterial material) {
+	public ItemHavicSword(int id, EnumToolMaterial material, String name) {
 		super(id, material);
-		setCreativeTab(HavicRPG.havicTabTools);
+		this.setCreativeTab(HavicRPG.havicTabTools);
+		this.setUnlocalizedName(name);
 	}
 
 	@Override

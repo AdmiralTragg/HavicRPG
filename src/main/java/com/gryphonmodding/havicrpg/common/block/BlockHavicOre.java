@@ -19,6 +19,7 @@ public class BlockHavicOre extends Block {
 		super(par1, Material.rock);
 		this.setUnlocalizedName("blockHavicOre");
 		this.setCreativeTab(HavicRPG.havicTabBlocks);
+		this.setHardness(3.0f);
 	}
 	
 	@Override

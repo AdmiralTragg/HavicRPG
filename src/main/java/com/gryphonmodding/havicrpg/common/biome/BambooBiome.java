@@ -4,7 +4,6 @@ import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraft.block.*;
 
 public class BambooBiome extends BiomeGenBase {
-
 	public BambooBiome(int par1) {
 		super(par1);
 		topBlock = (byte) Block.grass.blockID;
@@ -13,5 +12,4 @@ public class BambooBiome extends BiomeGenBase {
 		this.theBiomeDecorator.grassPerChunk = 50;
 
 	}
-
 }
